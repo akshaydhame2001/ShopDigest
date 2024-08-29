@@ -5,8 +5,8 @@ export default function Card({ title, description, apps, icons }) {
   return (
     <div className="bg-white p-4 rounded-lg shadow-sm h-[300px] flex flex-col border-2">
       <div className="flex-grow">
-        <h2 className="font-semibold text-lg">{title}</h2>
-        <p className="mt-2 text-gray-600">{description}</p>
+        <h2 className="text-dark-black font-semibold text-lg">{title}</h2>
+        <p className="mt-2 text-light-black">{description}</p>
       </div>
       <div>
         <Image

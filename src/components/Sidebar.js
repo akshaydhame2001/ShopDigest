@@ -3,6 +3,7 @@
 import { useState } from "react";
 import { IoMenu } from "react-icons/io5";
 import { AiOutlineClose } from "react-icons/ai";
+import { FaLongArrowAltRight } from "react-icons/fa";
 
 export default function Sidebar() {
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
@@ -40,6 +41,10 @@ export default function Sidebar() {
             <a href="#" className="block py-2 text-gray-700 hover:text-primary">
               Contact
             </a>
+            <button className="button-primary flex items-center py-2 px-4">
+              Add post
+              <FaLongArrowAltRight className="ml-2" />
+            </button>
           </nav>
         </div>
       </div>
